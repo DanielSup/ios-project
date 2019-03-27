@@ -1,5 +1,6 @@
 osx_image: xcode10.1
 language: objective-c
+gemfile: mi-ios-2019
 cache: cocoapods
 install:
 - bundle exec pod install --project-directory=mi-ios-2019 || pod install --project-directory=mi-ios-2019 --repo-update
